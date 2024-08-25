@@ -1,0 +1,13 @@
+{
+    "units": [
+        {"id": 1, "name": "flame", "unit": "f", "value": 1},
+        {"id": 2, "name": "Warning", "unit": "W", "value": 1000},
+        {"id": 3, "name": "chat restrict", "unit": "CR", "value": 1000000},
+        {"id": 4, "name": "ranked restrictions", "unit": "RR", "value": 1000000000},
+        {"id": 5, "name": "ban temp", "unit": "BT", "value": 1000000000000},
+        {"id": 6, "name": "ban perma", "unit": "BP", "value": 1000000000000000},
+        {"id": 7, "name": "ban ip", "unit": "BI", "value": 1000000000000000000},
+        {"id": 8, "name": "ban id", "unit": "BID", "value": 1000000000000000000000},
+        {"id": 9, "name": "jail", "unit": "J", "value": 1000000000000000000000000}
+    ]
+}

@@ -1,0 +1,44 @@
+[
+    {
+        "name": "trash botlane",
+        "baseCost": 100,
+        "baseFlamePerSecond": 1,
+        "upgradeCostFunction": "baseCost * 1.15",
+        "flamePerSecondAfterUpgradesFunction": "baseFlamePerSecond * 1.2"
+    },
+    {
+        "name": "afk",
+        "baseCost": 500,
+        "baseFlamePerSecond": 5,
+        "upgradeCostFunction": "baseCost * 1.15",
+        "flamePerSecondAfterUpgradesFunction": "baseFlamePerSecond * 1.3"
+    },
+    {
+        "name": "no gank jgl",
+        "baseCost": 1000,
+        "baseFlamePerSecond": 10,
+        "upgradeCostFunction": "baseCost * 1.2",
+        "flamePerSecondAfterUpgradesFunction": "baseFlamePerSecond * 1.4"
+    },
+    {
+        "name": "sardoche",
+        "baseCost": 5000,
+        "baseFlamePerSecond": 50,
+        "upgradeCostFunction": "baseCost * 1.25",
+        "flamePerSecondAfterUpgradesFunction": "baseFlamePerSecond * 1.5"
+    },
+    {
+        "name": "tyler2",
+        "baseCost": 10000,
+        "baseFlamePerSecond": 100,
+        "upgradeCostFunction": "baseCost * 1.3",
+        "flamePerSecondAfterUpgradesFunction": "baseFlamePerSecond * 1.6"
+    },
+    {
+        "name": "gobelet69",
+        "baseCost": 10000,
+        "baseFlamePerSecond": 100,
+        "upgradeCostFunction": "baseCost * 1.4",
+        "flamePerSecondAfterUpgradesFunction": "baseFlamePerSecond * 1.7"
+    }
+]

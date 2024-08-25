@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Toxicity Clicker</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Toxicity Clicker</h1>
+    <div class="container">
+        <div class="sidebar legend">
+            <h2>Upgrades Inc</h2>
+            <ul>
+                <li class="legend-item">inc</li>
+            </ul>
+        </div>
+        <div class="main-content">
+            <div id="circle" class="circle">🔥</div>
+            <p>Flame Count: <span id="flameCount">0</span></p>
+            <p>Flames per Second: <span id="flamesPerSecond">0</span></p>
+            <input type="number" id="flameInput" placeholder="Enter flame count">
+            <button id="setFlameButton">Set Flames</button>
+        </div>
+        <div class="sidebar farmers">
+            <h2>Toxicity Farmers</h2>
+            <ul id="farmersContainer"></ul>
+        </div>
+        <div id="settings" class="sidebar settings">
+            <h2>Settings</h2>
+            <button id="resetButton">Reset</button>
+            <button id="exportButton">Export</button>
+            <input type="file" id="importFileInput" style="display: none;" />
+            <button id="importButton">Import</button>
+            <button id="saveButton">Save</button>
+        </div>
+    </div>
+    <script src="game.js"></script>
+</body>
+</html>
