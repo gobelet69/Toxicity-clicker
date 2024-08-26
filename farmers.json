@@ -36,8 +36,8 @@
     },
     {
         "name": "gobelet69",
-        "baseCost": 10000,
-        "baseFlamePerSecond": 100,
+        "baseCost":50000,
+        "baseFlamePerSecond": 500,
         "upgradeCostFunction": "baseCost * 1.4",
         "flamePerSecondAfterUpgradesFunction": "baseFlamePerSecond * 1.7"
     }

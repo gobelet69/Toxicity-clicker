@@ -53,10 +53,31 @@ h1 {
 
 .settings {
     position: absolute;
-    bottom: 0;
+    top: 0;
     left: 0;
-    width: 20%;
+    width: 30%;
     padding: 10px;
     box-sizing: border-box;
     background-color: #f0f0f0;
+    display: flex;
+    flex-direction: horizontal;
+}
+
+.settings h2 {
+    margin-bottom: 10px;
+}
+
+.settings-buttons {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+}
+
+.settings-buttons button {
+    margin-bottom: 10px;
+}
+
+/* New CSS for the units sidebar */
+.sidebar.units {
+    box-shadow: 2px 0 5px rgba(0,0,0,0.1);
 }

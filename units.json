@@ -1,6 +1,6 @@
 {
     "units": [
-        {"id": 1, "name": "flame", "unit": "f", "value": 1},
+        {"id": 1, "name": "Flame", "unit": "F", "value": 1},
         {"id": 2, "name": "Warning", "unit": "W", "value": 1000},
         {"id": 3, "name": "chat restrict", "unit": "CR", "value": 1000000},
         {"id": 4, "name": "ranked restrictions", "unit": "RR", "value": 1000000000},
