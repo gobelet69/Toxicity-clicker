@@ -6,7 +6,6 @@ let farmers = [];
 let units = [];
 let incrementPerClick = 1;
 
-// Utility functions
 function getUnit(value) {
     if (units.length === 0) {
         return { name: '', value: 1 };
